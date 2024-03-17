@@ -1,0 +1,45 @@
+{
+  "name": "bookit",
+  "version": "1.0.0",
+  "description": "Travel site with travel api",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm start",
+    "build": "react-scripts build",
+    "serve": "serve -s build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serenitysmith/serenitysmith.git"
+  },
+  "author": "Serenity",
+  "license": "MIT",
+  "dependencies": {
+    "amadeus": "^9.1.0",
+    "dotenv": "^16.4.5",
+    "dotenv-expand": "^5.1.0",
+    "express": "^4.18.3",
+    "open": "^10.1.0",
+    "react": "^18.2.0",
+    "router": "^1.3.8",
+    "web-vitals": "^3.5.2",
+    "console": "node -r ./lib/amadeus.js",
+    "testEnvironment": "node"
+  },
+  "devDependencies": {
+    "react-scripts": "latest",
+    "serve": "^13.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
